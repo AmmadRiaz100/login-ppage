@@ -1,0 +1,209 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(255, 217, 0);
+}
+.f0-container {
+  height: 500px;
+  width: 1000px;
+  background-color: (255, 217, 0);
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+.main-container {
+  width: 100%;
+  height: 589px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.login-container {
+  background-color: aliceblue;
+  height: 450px;
+  width: 330px;
+  display: flex;
+  justify-content: center;
+  border-radius: 30px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px,
+    rgba(0, 0, 0, 0.05) 0px 5px 10px;
+  position: relative;
+  margin-right: 3rem;
+  margin-bottom: 25px;
+}
+.wel h1 {
+  color: rgb(255, 217, 0);
+  font-family: "Montserrat";
+  font-size: 24px;
+  font-style: italic;
+  margin-top: 24px;
+}
+.login-box {
+  background-color: white;
+  height: 40px;
+  width: 300px;
+  position: absolute;
+  margin-top: 5rem;
+  border-radius: 12px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px,
+    rgba(0, 0, 0, 0.05) 0px 5px 10px;
+}
+.google-logo img {
+    width: 21px;
+    padding: 9px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.adv p {
+    font-family: "Montserrat";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 74px;
+    margin-top: -30px;
+    font-size: 13px;
+}
+
+.user-adv p {
+  font-family: "Montserrat";
+  display: flex;
+  justify-content: center;
+  margin-top: -50px;
+  font-size: 11px;
+  color: gray;
+  padding: 10px;
+}
+.line {
+  background-color: gray;
+  height: 1px;
+  width: 50px;
+  margin-block-start: -28px;
+  margin-left: 4px;
+}
+.line-2 {
+  background-color: gray;
+  height: 1px;
+  width: 48px;
+  margin-left: 15.5rem;
+}
+.login-form-container {
+  padding-top: 32px;
+}
+
+.login-form {
+  width: 400px;
+}
+
+.login-form h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #333;
+  font-family: "Montserrat";
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 2px;
+  color: #555;
+  font-size: 9px;
+  font-family: "Montserrat";
+}
+
+.form-group input[type="text"],
+.form-group input[type="password"] {
+  height: 20px;
+  width: 265px;
+  border-radius: 10px;
+  /* background-color: #555; */
+  /* opacity: 40%; */
+  font-size: 14px;
+  padding: 15px;
+  border: none;
+}
+
+.form-group.remember-me {
+  display: flex;
+  align-items: center;
+}
+
+.form-group.remember-me input {
+  margin-right: 6px;
+}
+
+.form-group button {
+  width: 190px;
+  padding: 13px;
+  background-color: rgb(255, 217, 0);
+  border: none;
+  color: white;
+  font-size: 13px;
+  border-radius: 32px;
+  cursor: pointer;
+  margin-left: 55px;
+  margin-top: 40px;
+}
+
+.form-group button:hover {
+  background-color: rgb(255, 217, 0);
+}
+
+.form-group.forgot-password {
+  text-align: right;
+  font-family: "Montserrat";
+}
+
+.form-group.forgot-password a {
+  color: #000000;
+  text-decoration: none;
+  font-size: 10px;
+}
+
+.form-group.forgot-password a:hover {
+  text-decoration: underline;
+  font-family: "Montserrat";
+}
+.cntr {
+  display: flex;
+  gap: 90px;
+}
+#checkbox {
+  margin-left: 26px;
+}
+.instruction {
+}
+.instruction h6 {
+  color: white;
+  display: flex;
+  /* align-items: center; */
+  justify-content: right;
+  margin-right: 19rem;
+  margin-top: -66px;
+  font-size: 10px;
+  text-decoration: underline;
+  font-family: "Montserrat";
+}
+.instruction h2 {
+  display: flex;
+  /* align-items: center; */
+  justify-content: right;
+  margin-right: 15rem;
+  margin-top: -18px;
+  font-family: "Montserrat";
+  font-size: 10px;
+  color: #333;
+}
+h6 {
+  color: white;
+  display: flex;
+  /* align-items: center; */
+  justify-content: right;
+  margin-right: 12rem;
+  margin-top: -22px;
+  font-size: 10px;
+  font-family: "Montserrat";
+}
